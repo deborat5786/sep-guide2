@@ -28,6 +28,7 @@
    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <!--Carousel-->
 
 </head>
   <style>
@@ -36,6 +37,11 @@
       width: 70%;
       margin: auto;
   }
+  
+  h4 {
+    color:red;
+  }
+   
   </style>
 
 <body>
@@ -53,13 +59,13 @@
         </button>
         <a class="navbar-brand" href="index.html"><span class="glyphicon glyphicon-qrcode"></span> SEP</a>
       </div>
-       Collect the nav links
+      
 
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
           <li class="hidden">
-            <!--<li class="active"><a href="#tf-home" class="page-scroll">Home</a></li>-->
-              <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Home <span class="caret"></span></a>
+            
+              <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="about.html">Home <span class="caret"></span></a>
         <ul class="dropdown-menu">
           <li><a href="#tf-aboutus"> About us</a></li>
           <li><a href="#tf-gallery">Gallery</a></li>
@@ -69,7 +75,7 @@
      
             <li class="page scroll"><a href="about.html">Skills</a></li>
           
-            <li class="page scroll"><a href="#tf-gallery">Gallery</a></li>
+            <li class="page scroll"><a href="#tf-gallery">Topics</a></li>
             <li class="page scroll"><a href="#tf-opportunities">Resources</a></li>
            
         </ul>
@@ -77,3 +83,11 @@
 
     </div>
   </nav>
+   <style class=hidden>
+    @media only screen and (max-width:992px) {
+      body {
+        font-size: 20px;
+        font-family: 'Paprika', cursive;
+      }
+    }
+    </style>
